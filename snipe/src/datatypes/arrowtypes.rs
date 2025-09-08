@@ -1,8 +1,5 @@
-use arrow::datatypes::{Datatype, Field, Schema};
-use arrow_array::{Array, ArrayRef};
-use std::any::Any;
+use arrow::datatypes::*;
 use std::fmt::Debug;
-use std::sync::Arc;
 
 pub struct ArrowTypes;
 
